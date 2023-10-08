@@ -6,11 +6,70 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <div class=" w-full h-screen items-center justify-center flex bg-blue-500">
-  <div class=" animate-bounce  w-20 h-20 bg-red-900 hover:bg-green-500 ">
-    
-  </div>
-</div>
+    <div class="w-screen h-screen flex md:flex">
+        <div class="w-full sm:w-full lg:w-1/2 2xl:w-1/3">
+            <div class="w-full flex items-center justify-center h-screen bg-red-700 ">
+                <div class="w-4/5 h-5/6 bg-gradient-to-r from-black to-transparent rounded-lg flex items-end justify-end">
+                    <div class=" w-16 h-16 rounded-full bg-teal-400 mb-10 mr-10"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full flex flex-col hidden h-screen w-1/4 md:block lg:w-1/2  2xl:w-1/3">
+            <div class=" h-screen bg-yellow-400 flex items-center justify-center">
+                <div class="place-content-between w-4/5 h-5/6 flex flex-col">
+                    <div class="w-4/5 h-1/6 bg-gradient-to-r from-cyan-800 to-yellow-400 rounded-lg "></div>
+                    <div class="w-4/5 h-1/6 bg-gradient-to-r from-cyan-800 to-yellow-400 rounded-lg"></div>
+                    <div class="w-4/5 h-1/6 bg-gradient-to-r from-cyan-800 to-yellow-400 rounded-lg flex items-end justify-end ">
+                        <div class=" w-16 h-16 rounded-full bg-teal-400 m-5"></div>
+                    </div>
+                    <div class="w-4/5 h-1/6 bg-gradient-to-r from-cyan-800 to-transparent rounded-lg "></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col hidden h-screen w-1/4 lg:block 2xl:w-1/3">
+            <div class="flex flex-col place-content-around h-screen bg-teal-600 items-center">
+                <div class="w-4/5 h-2/6 flex flex-col justify-center">
+                    <div class="h-screen width-4/5 bg-gradient-to-r from-blue-800 to-transparent rounded-lg flex items-end justify-end">
+                        <div class=" w-16 h-16 rounded-full bg-rose-600 mb-10 mr-10 "></div>
+                    </div>
+                </div>
+                <div class="flex flex-row w-5/6 h-16 place-content-around">
+                    <div class="w-24 h-16 bg-blue-800 rounded-lg"></div>
+                    <div class="w-24 h-16 bg-blue-800 rounded-lg"></div>
+                    <div class="w-24 h-16 bg-gradient-to-r from-blue-800 to-transparent rounded-lg"></div>
+                </div>
+                <div class="flex w-5/6 h-32 place-content-around">
+                    <div class="w-40 h-32 bg-blue-800  rounded-lg "></div>
+                    <div class="w-40 h-32 bg-gradient-to-r from-blue-800 to-transparent rounded-lg"></div>
+                </div>
+                <div class="flex w-5/6 h-32 place-content-around">
+                    <div class="w-40 h-32 bg-blue-800 rounded-lg "></div>
+                    <div class="w-40 h-32 bg-gradient-to-r from-blue-800 to-transparent rounded-lg"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col hidden h-screen w-1/4 2xl:block">
+            <div class="flex flex-col justify-center items-center h-screen bg-pink-500 place-content-between justify-center items-center">
+                <div class="w-4/5 h-28 bg-gradient-to-r from-indigo-700 to-transparent rounded-lg"></div>
+                <div class="w-full h-5/6 flex flex-row items-center justify-center place-content-around">            
+                    <div class="w-2/4 h-5/6 flex flex-col place-content-around">
+                        <div class="w-4/5 h-2/5 bg-indigo-700 rounded-lg m-5"></div>
+                        <div class="w-4/5 h-2/5 bg-indigo-700 rounded-lg m-5 "></div>
+                        <div class="w-4/5 h-24 bg-indigo-700 rounded-lg m-5"></div>
+                    </div>
+                    <div class="w-2/4 h-5/6 flex flex-col place-content-around">
+                        <div class="w-4/5 h-24 bg-gradient-to-r from-indigo-700 to-transparent rounded-lg m-5"></div>
+                        <div class="w-4/5 h-2/5 bg-gradient-to-r from-indigo-700 to-transparent rounded-lg rounded-lg flex items-center justify-center m-5">
+                            <div class="w-16 h-16 rounded-full bg-rose-600 m-5"></div>
+                        </div>
+                        <div class="w-4/5 h-2/5 bg-gradient-to-r from-indigo-700 to-transparent rounded-lg m-5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-
